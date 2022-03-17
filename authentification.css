@@ -28,10 +28,31 @@ form {
   width: 500px;
   padding-left: 50px;
 }
+.info .main-content {
+  padding: 2rem;
+}
 .info .menu {
   position: relative;
   left: 90%;
   top: 3%;
+}
+.info .content {
+  display: flex;
+  align-items: center;
+}
+.info .content i {
+  font-size: 80px;
+  color: #FC5422;
+}
+.info .content h2 {
+  margin-top: 0;
+}
+.info h1 {
+  font-size: 40px;
+  margin-top: 0;
+}
+.info p {
+  margin-bottom: 0;
 }
 
 .form {
